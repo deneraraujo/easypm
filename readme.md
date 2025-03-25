@@ -6,7 +6,7 @@ Easy Power Menu is a easy way to power off or reboot your Nintendo Switch withou
 
 ## Installation
 
-Access the [releases page](), download the latest .nro file and copy it to the "switch" folder on your sd card.
+Access the [releases page](https://github.com/deneraraujo/easypm/releases), download the latest .nro file and copy it to the "switch" folder on your sd card.
 
 ## Creating a shortcut on Switch home screen
 
@@ -32,7 +32,7 @@ Access the [releases page](), download the latest .nro file and copy it to the "
 - Setup the environment variable
     - On `.vscode/c_cpp_properties.json` - line 3, set your devkitPro installation directory to the "DEVKITPRO" variable. (By default "C:/devkitPro").
     
-        ```json
+        ```
         {
             "env": {
                 "DEVKITPRO": "C:/devkitPro"
@@ -53,7 +53,7 @@ Access the [releases page](), download the latest .nro file and copy it to the "
 - On Windows, open the Command Prompt and navigate to the devkitPro installation directory. Then navigate to the "`tools/bin`" folder.
 - Run the following command:
     ```console
-    nxlink -a <Nintendo Switch IP Address> -s <project directory>\epmenu.nro
+    nxlink -a <Nintendo Switch IP Address> -s <project directory>\easypm.nro
     ```
     Replace `<Nintendo Switch IP Address>` with the address shown in NetLoader.
     
